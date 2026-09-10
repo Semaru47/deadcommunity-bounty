@@ -1,48 +1,56 @@
 # Dead Bounty
 
-> DeadCommunity product showcase — **no source code**.
+> ◆ DeadCommunity product card — **no source code · no API keys**.
 
-**Role:** Bounty / task board
+### ◆ Role
 
-A bounty-style task board running on our server for community challenges and tracked work.
+**Bounty / task board**
 
-## Live
+Bounty-style task board for community challenges and tracked work.
 
-_Hostname not public yet — service runs on our production host._
+### ◆ Live
 
-## What it does
+↳ _Hostname not public yet — service runs on our production host._
 
-- Active containerized bounty app on the host
-- Designed for community tasking and rewards flows
-- Sibling product to the wider DeadCommunity web stack
+### ◆ What it does
 
-## Who it’s for
+▸ Active containerized app on the host
+▸ Community tasking and rewards flows
+▸ Sibling to the wider DC web stack
 
-Community contributors
+### ◆ Highlights
 
-## Stack (high level)
+○ Server-active
+○ Product card only here
+○ Source private
+
+### ◆ Who it’s for
+
+▸ Community contributors
+
+### ◆ Stack (high level)
 
 `Web app` · `Docker`
 
-## Status
+### ◆ Status
 
-- **Production:** running on DeadCommunity infrastructure  
-- **Source:** private (not published)  
-- **Operator model:** idea → UI/API → Docker deploy → uptime  
+| ▣ | ○ |
+|:--|:--|
+| Production | Running on DeadCommunity infrastructure |
+| Source | **Private** (not published) |
+| Public surface | This README + live URL only |
+| Operator model | ■ scope → ■ build → ■ containerize → ■ hostname → ■ iterate |
 
+### ◆ Policy
+
+| Included | Not included |
+|:---------|:-------------|
+| Purpose · live link · stack overview | Application source |
+| High-level architecture notes | `.env` · secrets · API keys · tokens |
+| Operator story | Production private configs |
 
 ---
 
-## About this repository
-
-This is a **public product card**, not a source dump.
-
-| Included | Not included |
-|----------|--------------|
-| What the product is | Application source code |
-| Live URL (when public) | `.env`, secrets, API keys |
-| High-level stack | Production private configs |
-
-Index of all products: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
-Profile: [github.com/Semaru47](https://github.com/Semaru47) · Site: [deadcommunity.com](https://deadcommunity.com)
-
+↳ Index: [deadcommunity-showcase](https://github.com/Semaru47/deadcommunity-showcase)  
+↳ Profile: [github.com/Semaru47](https://github.com/Semaru47)  
+↳ Brand: [deadcommunity.com](https://deadcommunity.com)
